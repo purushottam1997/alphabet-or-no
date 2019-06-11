@@ -2,12 +2,11 @@
 int main()
 {
     char c;
-    printf("Enter a character: ");
     scanf("%c",&c);
 
     if( (c>='a' && c<='z') || (c>='A' && c<='Z'))
-        printf(" Alphabet");
+        printf("Alphabet");
     else
-        printf(" No");
+        printf("No");
     return 0;
 }
