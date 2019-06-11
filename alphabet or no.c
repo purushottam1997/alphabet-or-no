@@ -6,8 +6,8 @@ int main()
     scanf("%c",&c);
 
     if( (c>='a' && c<='z') || (c>='A' && c<='Z'))
-        printf("%c Alphabet",c);
+        printf(" Alphabet");
     else
-        printf("%c No",c);
+        printf(" No");
     return 0;
 }
