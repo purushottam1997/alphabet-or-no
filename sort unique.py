@@ -1,4 +1,4 @@
-n=int(input())
+p=int(input())
 num1=list(map(int,input().split()))
 l1=[]
 for i in num1:
